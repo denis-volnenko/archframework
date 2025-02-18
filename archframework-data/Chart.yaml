@@ -1,0 +1,10 @@
+---
+apiVersion: v2
+name: data.archframework.volnenko.ru
+version: 1.0.0
+
+home: https://archframework.volnenko.ru
+
+maintainers:
+  - name: Denis Volnenko
+    email: denis@volnenko.ru
