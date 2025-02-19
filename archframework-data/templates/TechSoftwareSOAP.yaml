@@ -4,3 +4,6 @@ kind: Software
 metadata:
   name: soap
   namespace: volnenko
+spec:
+  name: SOAP
+  code: soap
