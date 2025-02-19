@@ -1,0 +1,6 @@
+---
+apiVersion: archframework.volnenko.ru/v1
+kind: Software
+metadata:
+  name: mysql
+  namespace: volnenko

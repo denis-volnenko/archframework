@@ -1,0 +1,6 @@
+---
+apiVersion: archframework.volnenko.ru/v1
+kind: Type
+metadata:
+  name: json-array
+  namespace: volnenko
