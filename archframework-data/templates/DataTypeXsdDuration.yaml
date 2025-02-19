@@ -4,3 +4,6 @@ kind: Type
 metadata:
   name: xsd-duration
   namespace: volnenko
+spec:
+  name: Duration
+  code: duration

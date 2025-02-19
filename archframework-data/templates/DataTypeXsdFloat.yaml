@@ -4,3 +4,6 @@ kind: Type
 metadata:
   name: xsd-float
   namespace: volnenko
+spec:
+  name: Float
+  code: float
