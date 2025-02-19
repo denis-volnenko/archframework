@@ -1,0 +1,29 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: entities.data.archframework.volnenko.ru
+spec:
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                code:
+                  type: string
+                name:
+                  type: string
+                description:
+                  type: string
+  scope: Namespaced
+  group: data.archframework.volnenko.ru
+  names:
+    kind: Entity
+    listKind: EntityList
+    singular: entity
+    plural: entities
